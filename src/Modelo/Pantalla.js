@@ -61,7 +61,6 @@ class Pantalla {
     }
 
     subtractInUno() {
-        //rect((width * 3 / 4) - 20, (height - 70) / 2, width / 4, 70);
         if (this.num <= 10 && this.num > 0 && mouseX > (width * 3 / 4) - 20 && mouseX < (width * 3 / 4) - 20 + width / 4 && mouseY > (height - 70) / 2 && mouseY < (height - 70) / 2 + 70) {
             this.num = this.num -= 1;
         }
