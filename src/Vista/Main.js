@@ -36,6 +36,7 @@ function draw() {
 function mouseClicked() {
     switch (pantalla) {
         case 0:
+            sc.subtractInUno(); 
             sc.addInUno();
             if (sc.getNum() <= 10 && sc.getNum() > 0 && mouseX > 249 && mouseX < 550 && mouseY > 466 && mouseY < 535) {
                 pantalla = 1;
