@@ -7,7 +7,7 @@ class Cuadrado extends Figura {
 
 
     pintar() {
-        fill(59, 131, 189);
+        fill(148, 0, 211);
         rect(this.posX, this.posY, this.tam, this.tam);
         fill(255);
         textSize(30);

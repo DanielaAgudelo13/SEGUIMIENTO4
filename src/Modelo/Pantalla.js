@@ -26,31 +26,31 @@ class Pantalla {
         text("-", 675, (height + 25) / 2);
 
         if (this.num > 0) {
-            fill(100, 140, 240);
+            fill(83, 153, 176);
             rect((width / 4) + 50, 466, (width / 4) + 100, 70);
-            fill(0);
+            fill(255);
             text('Continuar', 335, 514);
         }
     }
 
 
     pintarBotonesPantalla2() {
-        fill(100);
+        fill(255, 89, 143);
         rect(0, 550, width / 4, 70);
-        fill(0);
-        text("Anadir", 20, 600);
-        fill(255, 100, 100);
+        fill(255);
+        text("A", 80, 600);
+        fill(243, 135, 47);
         rect(width / 4, 550, width / 4, 70);
-        fill(0);
-        text("Quitar", 220, 600);
-        fill(100, 255, 100);
+        fill(255);
+        text("Q", 280, 600);
+        fill(21, 178, 211);
         rect(width * 2 / 4, 550, width / 4, 70);
-        fill(0);
-        text("DuplicarTam", 410, 600);
-        fill(100, 100, 255);
+        fill(255);
+        text("D", 485, 600);
+        fill(255, 215, 0);
         rect(width * 3 / 4, 550, width / 4, 70);
-        fill(0);
-        text("CrearCirculos", 610, 600);
+        fill(255);
+        text("C", 688, 600);
     }
 
 

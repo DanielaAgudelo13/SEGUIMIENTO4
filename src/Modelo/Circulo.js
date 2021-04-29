@@ -5,10 +5,11 @@ class Circulo extends Figura{
 
 
     pintar(){
-        fill(this.value*35);
+        //this.value*35
+        fill(82, 204, 206);
         ellipseMode(CORNER)
         ellipse(this.posX,this.posY,this.tam, this.tam);
-        fill(0);
+        fill(255);
         textSize(30);
         text(this.value, this.posX+10, this.posY+30);
     }
